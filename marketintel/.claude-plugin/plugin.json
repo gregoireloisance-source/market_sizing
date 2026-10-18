@@ -1,0 +1,28 @@
+{
+  "name": "MarketIntel",
+  "version": "1.0.0",
+  "description": "PE-grade market sizing with dual approach (top-down + bottom-up), sourced data, and Excel output. For due diligence qualification and thesis challenge.",
+  "author": "Greg (Private Equity)",
+  "commands": [
+    {
+      "name": "market-sizing",
+      "description": "Comprehensive market size analysis for a target market or sector",
+      "shortcut": "msz",
+      "examples": [
+        "/market-sizing \"Logistics SaaS\" France",
+        "/market-sizing \"Digital Health\" Europe --depth=deep",
+        "/market-sizing \"B2B Payments\" France --company=Stripe"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "market-sizing-method",
+      "description": "Framework: MECE tree, TAM/SAM/SOM, triangulation, source hierarchy, confidence rubric"
+    }
+  ],
+  "python_requirements": [
+    "openpyxl>=3.10.0"
+  ],
+  "env_vars": []
+}
